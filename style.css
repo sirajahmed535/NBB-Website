@@ -187,7 +187,7 @@ body{
 }
 .first-icons{
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     /* gap: 20px; */
 }
 .no-buffering, .no-lags, .equal-update, .volume-unlimited, .seamless, .live-stream,.videocall, .gaming{
@@ -497,5 +497,12 @@ body{
     }
     100% {
         transform: scale(1.2);
+    }
+  }
+
+  @media only screen and (max-width: 1300px){
+
+    .cta-banner-img{
+        position: static;
     }
   }
